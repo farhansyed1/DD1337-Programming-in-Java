@@ -1,0 +1,27 @@
+Room,Outside,outside
+Room,Entrance,in the entrance
+Room,Dining room,in the dining room
+Room,Living room,in the living room
+Room,Kitchen,in the kitchen
+Room,Bedroom,in the bedroom
+Room,Games room,in the games room
+Room,Art room,in the art room
+Room,Office,in the office
+Exit,Outside,north,Entrance
+Exit,Entrance,south,Outside
+Exit,Entrance,west,Dining room
+Exit,Dining room,east,Entrance
+Exit,Dining room,north,Kitchen
+Exit,Kitchen,south,Dining room
+Exit,Kitchen,east,Living room
+Exit,Living room,west,Kitchen
+Exit,Dining room,north,Kitchen
+Exit,Entrance,north,Living room
+Exit,Living room,south,Entrance
+Exit,Living room,north,Bedroom
+Exit,Bedroom,south,Living room
+Exit,Bedroom,west,Games room
+Exit,Games room,east,Bedroom
+Exit,Bedroom,east,Outside
+Exit,Office,north,Art room
+Exit,Art room,west,Living room
